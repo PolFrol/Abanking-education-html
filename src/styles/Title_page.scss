@@ -1,0 +1,60 @@
+.title__page{
+
+    &__container{
+        max-width: 855px;
+        padding: 127px 0 31px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 8fr 4fr;
+        margin-bottom: 71px;
+    }
+
+    &__header{
+        margin-right: 106px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    &__title{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 60px;
+        color: #21243D;
+    }
+
+    &__text{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__image{
+        height: 243px;
+        width: 243px;
+    }
+
+    &__button{
+        width: 208px;
+        height: 47px;
+        background: #FF6464;
+        border-radius: 2px;
+        display: flex;
+        padding: 9px 17px 20px 21px;
+    }
+
+    &__button__text{
+        text-align: center;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+}
